@@ -1,0 +1,77 @@
+.container-content {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.box {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+  gap: 10%;
+}
+
+.upper {
+  margin-top: 90px;
+}
+
+.agent,
+.title {
+  aspect-ratio: 354 / 435;
+  width: clamp(120px, 25%, 200px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+}
+
+.agent {
+  position: relative;
+}
+
+.agent img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.back {
+  display: none;
+}
+
+.agent:hover .front {
+  display: none;
+}
+
+.agent:hover .back {
+  display: block;
+}
+
+.agent:hover {
+  background-image: linear-gradient(#170030, #423451);
+}
+
+.title h1 {
+  font-family: "Monomaniac One";
+  font-size: clamp(2rem, 5vw, 4rem);
+  text-shadow: 2px 2px #000;
+  color: white;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .box {
+    gap: 0;
+  }
+}

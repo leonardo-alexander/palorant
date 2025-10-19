@@ -1,0 +1,41 @@
+footer {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+footer .socialIcons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-logo {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  margin: 5px;
+  background-color: white;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.social-logo:hover {
+  background-color: #9142ea;
+}
+
+.giot-logo {
+  background-color: black;
+  width: 100px;
+}

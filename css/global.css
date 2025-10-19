@@ -1,0 +1,50 @@
+@font-face {
+  font-family: Lexend;
+  src: url("../font/lexend.ttf") format("truetype");
+}
+@font-face {
+  font-family: Rubik;
+  src: url(../font/rubik.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Sansation;
+  src: url(../font/sansation.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Monomaniac One;
+  src: url("../font/monomaniac_one.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Kufam;
+  src: url("../font/kufam.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Hind Madurai;
+  src: url(../font/hind_madurai.ttf) format("truetype");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Lexend;
+  background-color: #170030;
+  overflow-x: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}

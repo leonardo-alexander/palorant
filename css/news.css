@@ -1,0 +1,102 @@
+.container-content {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  width: 100vw;
+  height: auto;
+  color: white;
+  font-family: Lexend;
+}
+
+.container-content h1 {
+  font-family: Monomaniac One;
+  font-size: clamp(2rem, 5vw, 4rem);
+  text-shadow: 2px 2px #000;
+  padding: 0 20px;
+  margin-top: 60px;
+}
+
+.mobile {
+  display: none;
+}
+
+.news {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.line {
+  height: auto;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.info {
+  width: 30%;
+}
+
+.info:hover img {
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.info:hover {
+  color: #9142ea;
+}
+
+.info img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.date {
+  font-family: Kufam;
+  font-size: 0.8rem;
+}
+
+.title {
+  font-family: Kufam;
+  font-size: 1rem;
+}
+
+.desc {
+  font-family: Hind Madurai;
+  font-size: 0.9rem;
+}
+
+@media screen and (max-width: 768px) {
+  .news {
+    display: none;
+  }
+
+  .mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .line {
+    height: auto;
+  }
+
+  .info {
+    width: 45%;
+  }
+}
